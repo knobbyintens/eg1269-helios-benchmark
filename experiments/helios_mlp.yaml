@@ -1,0 +1,11 @@
+model: mlp
+hidden_sizes: [64, 32]
+window_hours: 24
+horizon_hours: 6
+stations:
+  - PYR-01
+  - PYR-02
+  - PYR-03
+learning_rate: 0.001
+batch_size: 128
+epochs: 40
